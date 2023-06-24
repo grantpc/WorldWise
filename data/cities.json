@@ -1,40 +1,40 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
+      "cityName": "Los Angeles",
+      "country": "United States of America (the)",
+      "emoji": "🇺🇸",
+      "date": "2023-06-22T17:23:26.000Z",
+      "notes": "Trip to visit Michael Te for his wedding",
       "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
+        "lat": "33.925129700072",
+        "lng": "-118.14697265625001"
       },
-      "id": 73930385
+      "id": 98443199
     },
     {
-      "cityName": "Madrid",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
-      "notes": "",
+      "cityName": "Phoenix",
+      "country": "United States of America (the)",
+      "emoji": "🇺🇸",
+      "date": "2021-09-15T17:25:14.000Z",
+      "notes": "Work trip in Phoenix",
       "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
+        "lat": "33.61461929233378",
+        "lng": "-112.14843750000001"
       },
-      "id": 17806751
+      "id": 98443200
     },
     {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
+      "cityName": "Logan",
+      "country": "United States of America (the)",
+      "emoji": "🇺🇸",
+      "date": "2021-12-14T18:32:49.000Z",
+      "notes": "Visiting Carley at school and going to the USU vs BYU football game",
       "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
+        "lat": "41.75492216766298",
+        "lng": "-111.84082031250001"
       },
-      "id": 98443197
+      "id": 98443201
     }
   ]
 }

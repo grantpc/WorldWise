@@ -10,6 +10,7 @@ import {
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import { useCities } from '../contexts/CitiesContext';
 import { useGeolocation } from '../hooks/useGeolocation';
+import { useUrlPosition } from '../hooks/useURLPosition';
 import Button from './Button';
 import styles from './Map.module.css';
 
@@ -23,10 +24,9 @@ function Map() {
     getPosition,
   } = useGeolocation();
 
-  const [mapPosition, setMapPosition] = useState([33.628342, -117.927933]);
+  const [mapPosition, setMapPosition] = useState([41.0602, 111.9711]);
 
-  const mapLat = searchParams.get('lat');
-  const mapLng = searchParams.get('lng');
+  const [mapLat, mapLng] = useUrlPosition();
 
   useEffect(() => {
     if (mapLat && mapLng) setMapPosition([mapLat, mapLng]);
